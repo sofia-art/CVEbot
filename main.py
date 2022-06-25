@@ -3,7 +3,7 @@ import requests
 import json
 import telebot
 
-bot = telebot.TeleBot('')  # указать токен своего бота
+bot = telebot.TeleBot('')  # указать токен своего бота (https://web.telegram.org/k/#@BotFather создать и получить свой токен бота тут)
 
 API_KEY = ""  # указать свой apiKey для доступа к nist (https://nvd.nist.gov/developers/request-an-api-key)
 MAX_RESULTS = 50
